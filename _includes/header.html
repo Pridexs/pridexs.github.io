@@ -1,0 +1,48 @@
+<header class="header">
+    <div class="navigation">
+        <a href="/" class="logo">{{ site.title }}</a>
+
+        <ul class="menu">
+            <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
+            <li class="menu__entry"><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
+        </ul>
+    </div>
+
+    <ul class="social-links">
+        {% if site.author.github %}
+            <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-github-square"></i>
+            </a>
+        {% endif %}
+
+        {% if site.author.linkedin %}
+            <a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-linkedin-square"></i>
+            </a>
+        {% endif %}
+
+        {% if site.author.flickr %}
+            <a href="https://flickr.com/{{ site.author.flickr }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-flickr"></i>
+            </a>
+        {% endif %}
+
+        {% if site.author.instagram %}
+            <a href="https://instagram.com/{{ site.author.instagram }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+        {% endif %}
+
+        {% if site.author.steam %}
+            <a href="http://steamcommunity.com/id/{{ site.author.steam }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-steam-square"></i>
+            </a>
+        {% endif %}
+
+        {% if site.author.twitter %}
+            <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+        {% endif %}
+    </ul>
+</header>
