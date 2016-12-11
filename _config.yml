@@ -1,10 +1,10 @@
 # Site settings
 title: Alexandre Maros
 description: >
-  Aa
+  A special place where my ideas get shared. Also, a summary of a small piece of my life.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://pridexs.com" # the base hostname & protocol for your site
+url: "http://alepmaros.github.io" # the base hostname & protocol for your site
 
 author:
   fullname: Alexandre Maros
