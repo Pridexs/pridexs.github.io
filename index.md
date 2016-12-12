@@ -4,7 +4,7 @@ layout: default
 
 \>
 
-I am a **Computer Scientist** student at UDESC, Santa Catarina, Brazil. I have also studied one year abroad at the Dublin Institute of Technology through the Science Without Borders programme.
+I am a **Computer Science** student at UDESC, Santa Catarina, Brazil. I have also studied one year abroad at the Dublin Institute of Technology through the Science Without Borders programme.
 
 The areas that I am most interested are in high performance computing, computer networks, virtual machines, servers, game development, and theory of computation.
 
