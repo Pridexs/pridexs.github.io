@@ -13,3 +13,5 @@ Here you will *probably* find stories, ideas, random thoughts, experiments, etc.
 Feel free to express your ideas in the comment section. I will try to keep an eye on that every now and then.
 
 I sincerely hope you can take something good out of this blog.
+
+P.S. The name of this post is a reference to the "Witch Crafty" episode of Woody Woodpecker.
