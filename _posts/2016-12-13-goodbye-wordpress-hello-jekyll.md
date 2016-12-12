@@ -14,7 +14,7 @@ I was hosting my website and my blog on a Virtual Machine at Digital Ocean, but 
 
 I don't blog much, I don't have many people that read my blog, so why was I paying 10 bucks a month for pretty much nothing? I occasionally used the VM to run a few applications every now and then, but I can use the credit that I have at Amazon EC2 to do that.
 
-Looking for solutions for my problem I found [Jekyll](https://jekyllrb.com/). Jekyll is a static site generator aimed at small websites and most importantly blogs. You can easily create a blog that uses no Databases and does not require a server behind that runs PHP, Python or any other language.
+Looking for solutions to my problem I found [Jekyll](https://jekyllrb.com/). Jekyll is a static site generator aimed at small websites and most importantly blogs. You can easily create a blog that uses no Databases and does not require a server behind that runs PHP, Python or any other language.
 
 That means that it is fast, reliable, does not require a whole lot of knowledge on servers to set up, **and**, the best feature is that you can host it for free on GitHub Pages!
 
