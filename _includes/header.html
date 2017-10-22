@@ -1,48 +1,23 @@
-<header class="header">
-    <div class="navigation">
-        <a href="/" class="logo">{{ site.title }}</a>
+<div id="particles-js">
+  <div class="content">
+      <h1>
+        <span class="site-title">{{site.username}}</span>
+        <span class="site-description">{{site.user_title}}</span>
+      </h1>
+      <div class="icons-header">
+        <a aria-label="My Flickr" target="_blank" href="https://www.flickr.com/photos/{{site.flickr}}"><i class="icon fa fa-flickr" aria-hidden="true"></i></a>
+        <a aria-label="My Instagram" target="_blank" href="https://instagram.com/{{site.instagram}}"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
+        <a aria-label="My Github" target="_blank" href="https://github.com/{{site.github_username}}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{site.linkedin}}"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+      <a class="link" href="#about" data-scroll>About Me</a>
+      <a class="link" href="#projects" data-scroll>Projects</a>
+      <a class="link" href="#contact" data-scroll>Contact</a>
+  </div>
+  <!--<a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>-->
 
-        <ul class="menu">
-            <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
-            <li class="menu__entry"><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
-        </ul>
-    </div>
-
-    <ul class="social-links">
-        {% if site.author.github %}
-            <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-github-square"></i>
-            </a>
-        {% endif %}
-
-        {% if site.author.linkedin %}
-            <a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-linkedin-square"></i>
-            </a>
-        {% endif %}
-
-        {% if site.author.flickr %}
-            <a href="https://flickr.com/{{ site.author.flickr }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-flickr"></i>
-            </a>
-        {% endif %}
-
-        {% if site.author.instagram %}
-            <a href="https://instagram.com/{{ site.author.instagram }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-instagram"></i>
-            </a>
-        {% endif %}
-
-        {% if site.author.steam %}
-            <a href="http://steamcommunity.com/id/{{ site.author.steam }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-steam-square"></i>
-            </a>
-        {% endif %}
-
-        {% if site.author.twitter %}
-            <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-twitter"></i>
-            </a>
-        {% endif %}
-    </ul>
-</header>
+  <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="{{ "/assets/js/sweet-scroll.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+  {% include google-analytics.html %}  
+</div>
