@@ -1,0 +1,44 @@
+body {
+    padding-top: 5rem;
+}
+
+.template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 64px auto 44px;
+    width: 64px;
+}
+
+.socials ul {
+    padding-left: 0;
+}
+
+.socials ul li {
+    display: inline;
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+.socials ul li:first-child {
+    display: inline;
+    padding-left: 0px;
+}
+
+.socials ul li a:link {
+    color: black;
+}
+
+.socials ul li a:visited {
+    color: black;
+}
+
+.socials ul li a:hover {
+    color: rgb(0, 162, 255);
+}
