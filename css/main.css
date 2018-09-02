@@ -42,3 +42,7 @@ body {
 .socials ul li a:hover {
     color: rgb(0, 162, 255);
 }
+
+.title-list {
+    font-weight: bold;
+}
