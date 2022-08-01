@@ -25,7 +25,7 @@ I have a Bachelor's degere in Computer Science from Universidade do Estado de Sa
 Currently, I'm primarily a Data Scientist, but I'm also really interested in the many adjacent topics that DS has, such as Data Engineering, DevOps, MLOps, Software Engineering, and so on. I'm 
 also currently working at [iFood](https://institucional.ifood.com.br/), the leading food delivery company in Brazil.
 
-In my free time, I also like to explore some Game Dev coding, but it's been quite a while since I haven't touched anything related to that. This website/blog is also an attempt to go back and start posting some interesting stuff related to it.
+I also like to explore some Game Dev coding in my free time, but it's been quite a while since I haven't touched anything related to that. This website/blog is also an attempt to go back and start posting some interesting stuff related to it.
 
 Aside from CS stuff, I also really enjoy photography, especially analog photography. Due to COVID stuff, I've been somewhat inconsistent with this hobby (also, analog films are expensive at the moment), but I want to get back to it as soon as possible.
 
