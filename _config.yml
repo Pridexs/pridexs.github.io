@@ -163,6 +163,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - examples
 keep_files:
   - CNAME
   - .nojekyll
