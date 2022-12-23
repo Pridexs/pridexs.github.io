@@ -108,3 +108,21 @@ This is an example post with image galleries.
         First and second prompt: a detailed animated portrait of ((((zkz)))) man, wearing Starfleet uniform, by Alphonse Mucha and David Finch and Laurie Greasle. Third one: silhouette of a ((((zkz)))) man illustration, vector art style, medium shot, intricate, elegant, highly detailed, digital art, f
     </div>
 </div>
+
+
+<div>
+    <div class="row mt-3">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.html path="assets/img/stable-diffusion/discoelysium1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.html path="assets/img/stable-diffusion/disco2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.html path="assets/img/stable-diffusion/disco3.png" class="img-fluid rounded z-depth-2" zoomable=true %}
+        </div>
+    </div>
+    <div class="caption">
+        Prompt: photo of zkz, oil paint
+    </div>
+</div>
