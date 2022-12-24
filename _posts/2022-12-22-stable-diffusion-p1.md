@@ -5,6 +5,7 @@ date: 2022-12-22 22:02:00
 description: My process of trying to generate some cool images of myself with Stable Diffusion and Dreambooth to replace my old one in Slack
 tags: ai machine-learning
 categories: ai
+comments: true
 ---
 This week I've decided to play a bit with [stable diffusion](https://huggingface.co/spaces/stabilityai/stable-diffusion). I know I'm a bit late to the "trend", but I finally caught up to it. I've decided to create this post just to register my quick and little experiment with it alongside [Dreambooth](https://dreambooth.github.io/). My goal was to generate some photos of me that I could use as a Slack avatar, because I was a bit tired of my currrent one, and I didn't fancy using any of the photos that I had. Last week I saw a coworker using a Stable Diffusion generated photo and thought I would finally try it!
 
