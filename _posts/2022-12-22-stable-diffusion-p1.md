@@ -14,8 +14,6 @@ The tutorial will guide you through using [AUTOMATIC1111's webui](https://github
 
 After everything set up, and the webui working I selected 30 photos of me, which can be seen bellow. I've read that using less photos is better, I'm not really sure, thats one of the experiments that I want to run sometime, but 30 seemed like an ok number so I went with it. I did crop all of the photos to the 512x512 resolution.
 
-<div class=" row mt-3"><iframe width="560" height="315" src="https://www.youtube.com/embed/XBn3K1L_TAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
 <div>
     <div class="row mt-3">
         <div class="col-sm mt-3 mt-md-0">
@@ -122,7 +120,7 @@ This ones were with prompts that I got somewhere in my Google Searches.
     </div>
 </div>
 
-And finally, I tried the img2img option. I really like Disco Elysium, and the artstyle in the game is absolutely incredible, so I used the photo of Kim Kitsuragi as this experiment. Again, I didn't generated a lot of iterations to get the best one, but in my initial tries I got the two below which were okay-ish. I also messed up the output resolution so they got a little bit squashed. I definetely will go back and try to generate more examples with img2img.
+And finally, I tried the img2img option. I really like Disco Elysium, and the artstyle in the game is absolutely incredible, so I used the photo of Kim Kitsuragi as this experiment. This ones were my favorites from the initial batch that I generated.
 
 <div>
     <div class="row mt-3">
@@ -130,17 +128,37 @@ And finally, I tried the img2img option. I really like Disco Elysium, and the ar
             {% include figure.html path="assets/img/stable-diffusion/discoelysium1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/stable-diffusion/disco2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.html path="assets/img/stable-diffusion/disco4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/stable-diffusion/disco3.png" class="img-fluid rounded z-depth-2" zoomable=true %}
+            {% include figure.html path="assets/img/stable-diffusion/disco5.png" class="img-fluid rounded z-depth-2" zoomable=true %}
         </div>
     </div>
     <div class="caption">
-        Prompt: photo of zkz, oil paint
+        Prompt: photo of man zkz, blonde short hair, oil paint, orangejacket, disco elysium
     </div>
 </div>
 
-So that's it. That was my one day journey with Stable Diffusion and Dreambooth as a Data Scientist/Machine Learning engineer. It is a really powerful model and can generate a lot of interesting images. I won't go into the ethical questions of these models (GPT3, DALL-E, and other ones) in this post, as there is a lot to cover, but it is definetely a question that should be on your mind when using it, and definetely a topic that I will be keeping a close eye as the discussion grows. In the meantime, I hope this post helps up create some cool images of you!
+I also tried with Harry Du Bois.
+
+<div>
+    <div class="row mt-3">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.html path="assets/img/stable-diffusion/discoelysium2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.html path="assets/img/stable-diffusion/disco6.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.html path="assets/img/stable-diffusion/disco7.png" class="img-fluid rounded z-depth-2" zoomable=true %}
+        </div>
+    </div>
+    <div class="caption">
+        Prompt: photo of man zkz, blonde short hair, oil paint, green shirt with tie, disco elysium
+    </div>
+</div>
+
+
+So that's it. That was my one day journey with Stable Diffusion and Dreambooth as a Data Scientist/Machine Learning engineer. I've only scratched the surface but it is a really powerful model and can generate a lot of interesting images. I won't go into the ethical questions of these models (GPT3, DALL-E, and other ones) in this post, as there is a lot to cover, but it is definetely a question that should be on your mind when using it, and definetely a topic that I will be keeping a close eye as the discussion grows. In the meantime, I hope this post helps up create some cool images of you!
 
 Have a great day!
